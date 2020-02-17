@@ -20,16 +20,8 @@ var config = {
                 bearing: -0.02
             },
             onChapterEnter: [
-                {
-                    layer: 'phl-city-limits',
-                    opacity: .45
-                }
             ],
             onChapterExit: [
-                {
-                    layer: 'phl-city-limits',
-                    opacity: 0.1
-                }
             ]
         },
         {
@@ -44,16 +36,8 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-              {
-                  layer: 'belmont',
-                  opacity: 1
-              }
             ],
             onChapterExit: [
-              {
-                  layer: 'belmont',
-                  opacity: 1
-              }
             ]
         },
         {
@@ -68,16 +52,8 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-              {
-                  layer: 'belmont',
-                  opacity: 1
-              }
             ],
             onChapterExit: [
-              {
-                  layer: 'belmont',
-                  opacity: 1
-              }
             ]
         },
         {
@@ -92,16 +68,8 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {
-                    layer: 'belmont',
-                    opacity: 1
-                }
             ],
             onChapterExit: [
-                {
-                    layer: 'belmont',
-                    opacity: 0
-                }
             ]
         }
     ]
